@@ -40,7 +40,7 @@
 //= require ./angular/main.js
 //= require ./angular/ui/sortable
 //= require ./angular/vendor/restangular.min
-//= require ./angular/vendor/ng_rollbar.min
+//= require ./angular/vendor/ng-rollbar.min.js
 //= require ./angular/vendor/angular-aria.js
 //= require_tree ./angular
 
