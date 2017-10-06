@@ -205,7 +205,7 @@ class CoursesController < ApplicationController
       :max_weights_per_assignment_type, :assignments,
       :accepts_submissions, :tagline, :office, :phone, :has_paid,
       :class_email, :twitter_handle, :twitter_hashtag, :location, :office_hours,
-      :meeting_times, :assignment_term, :challenge_term, :badge_term, :gameful_philosophy,
+      :meeting_times, :assignment_term, :challenge_term, :grade_predictor_term, :badge_term, :gameful_philosophy,
       :team_score_average, :has_team_challenges, :team_leader_term,
       :max_assignment_types_weighted, :full_points, :has_in_team_leaderboards,
       :grade_scheme_elements_attributes, :add_team_score_to_student, :status,

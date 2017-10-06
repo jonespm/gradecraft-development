@@ -36,5 +36,5 @@
           %img{src: "/images/no-predicted-assignments.svg", alt:"", class:"empty-state-graphic"}
         %p.empty-state-text
           You have not predicted any #{(term_for :assignment).downcase.pluralize}! Check out the
-          = link_to "grade predictor", predictor_path
+          = link_to "#{term_for :grade_predictor}", predictor_path
           to add #{(term_for :assignment).downcase.pluralize} to this planner.

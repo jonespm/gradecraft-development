@@ -8,7 +8,7 @@
     %li{class: ("active" if current_page?(syllabus_path)) }
       = link_to_unless_current "Syllabus", syllabus_path
   %li{class: ("active" if current_page?(predictor_path)) }
-    = link_to_unless_current "Grade Predictor", predictor_path
+    = link_to_unless_current "#{term_for :grade_predictor}", predictor_path
   - if current_course.has_badges?
     %li{class: ("active" if current_page?(badges_path)) }
       = link_to_unless_current "#{term_for :badges}", badges_path

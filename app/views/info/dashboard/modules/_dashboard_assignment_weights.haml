@@ -30,4 +30,4 @@
     .clear
     - if current_course.assignment_weight_open? && current_user_is_student?
       %p= link_to "Edit My Choices", predictor_path, class: "button"
-      %i Set your #{term_for :weight} choices in the grade predictor to have them automatically update your grade
+      %i Set your #{term_for :weight} choices in the #{term_for :grade_predictor} to have them automatically update your grade

@@ -7,7 +7,7 @@
   .card-body
     - if current_student.predictions_for_course?(current_course) == false
       .small
-        .alert-box.alert Has not yet used the grade predictor
+        .alert-box.alert Has not yet used the #{term_for :grade_predictor}
     .module-section
       - if current_student.avatar_file_name.present?
         %img.img-rounded{:src => current_student.avatar_file_name, width: 100, height: 100 }

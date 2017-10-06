@@ -1,10 +1,10 @@
 .modal-slide
   .modal-slide-top
-    %img.modal-slide-image.large-image.centered{src: "/images/onboarding-slide-5.png", alt: "Grade predictor example"}
+    %img.modal-slide-image.large-image.centered{src: "/images/onboarding-slide-5.png", alt: "#{term_for :grade_predictor} example"}
   .modal-slide-bottom
     .modal-slide-text
       %h2 Plan your grade
-      %p Plan out variable assignment pathways with Grade Predictor and use it to maximize your freedom of choice. Achieve the goals you want on your terms.
+      %p Plan out variable assignment pathways with #{term_for :grade_predictor} and use it to maximize your freedom of choice. Achieve the goals you want on your terms.
       -# - if !presenter.has_course_specific_features?
       -#   .modal-action-wrapper
       -#     %button#modal-action{type: 'submit', 'aria-label': 'close'} Let's Go!
