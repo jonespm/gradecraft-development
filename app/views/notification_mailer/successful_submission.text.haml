@@ -2,7 +2,7 @@ Dear #{ @user.first_name },
 
 You successfully submitted your work for #{ @assignment.name } on #{ @submission.submitted_at }.
 
-Don't forget to update your plan for the semester by checking your #{ term_for :grade_predictor} here: 
+Don't forget to update your plan for the semester by checking your #{ @course.grade_predictor_term } here: 
 
 = predictor_url
 

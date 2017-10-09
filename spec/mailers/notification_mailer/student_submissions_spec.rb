@@ -21,7 +21,7 @@ describe NotificationMailer do
 
   let(:submission) { create(:submission, course: course, student: student, assignment: assignment) }
   let(:student) { create(:user) }
-  let(:course) { create(:course, assignment_term: "whifflebox") }
+  let(:course) { create(:course, assignment_term: "whifflebox", grade_predictor_term: "crystal ball") }
   let(:assignment) { create(:assignment) }
 
   describe "#successful_submission" do

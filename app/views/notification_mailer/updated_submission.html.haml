@@ -6,5 +6,5 @@
 %p{:align => "center"}
   Don't forget to update your plan for the semester by checking your
   = succeed "." do
-    = link_to "#{term_for :grade_predictor}", predictor_url
+    = link_to "#{ @course.grade_predictor_term }", predictor_url
 %hr/
