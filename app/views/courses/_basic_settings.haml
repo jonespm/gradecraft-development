@@ -52,6 +52,13 @@
 
       .form-card
         .form-card-header
+          = f.label :show_grade_predictor, "Grade Predictor"
+          = f.check_box :show_grade_predictor, {class: "feature-checkbox"}
+        .form-card-body
+          .feature-description{id: "showGradePredictor"}  Show Grade Predictor.
+
+      .form-card
+        .form-card-header
           = f.label :has_multipliers, "Multipliers"
           = f.check_box :has_multipliers, {class: "feature-checkbox has-settings-menu"}
         .form-card-body
