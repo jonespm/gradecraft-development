@@ -7,7 +7,7 @@ describe BadgeExporter do
 
   describe "#export_sample_badge_file" do
     it "generates a CSV with grade statuses if the assignment is pass/fail and we
-        want statuses as plaintext" do
+        want statuses as plaintext", :unreliable do
       csv = CSV.new(subject.export_sample_badge_file(badge, course)).read
       expect(csv.length).to eq 3
       expect(csv[1][0]).to eq student1.first_name
